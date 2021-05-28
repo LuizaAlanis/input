@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="Buttons"/>
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:text="Simples"
+    android:textColor="@color/colorAccent"
+    android:layout_margin="8dp"
+    android:background="@drawable/button"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Redondo"
+        android:textColor="@color/colorAccent"
+        android:layout_margin="8dp"
+        android:background="@drawable/button_1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Borda"
+        android:textColor="@color/colorPrimary"
+        android:layout_margin="8dp"
+        android:background="@drawable/button_2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Gradient"
+        android:textColor="@color/colorAccent"
+        android:layout_margin="8dp"
+        android:background="@drawable/button_3"/>
+
+    <Button
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:paddingStart="10dp"
+        android:drawableStart="@drawable/ic_add"
+        android:textColor="@color/colorAccent"
+        android:layout_margin="8dp"
+        android:background="@drawable/button_1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="Inputs"/>
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:drawableStart="@drawable/ic_mail"
+        android:background="@drawable/custom_input"
+        android:drawablePadding="15dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:layout_margin="8dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:drawableStart="@drawable/ic_password"
+        android:background="@drawable/custom_input"
+        android:drawablePadding="15dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:inputType="textPassword"
+        android:hint="Senha"
+        android:layout_margin="8dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:drawableStart="@drawable/ic_phone"
+        android:background="@drawable/custom_input"
+        android:drawablePadding="15dp"
+        android:paddingStart="15dp"
+        android:inputType="phone"
+        android:paddingEnd="15dp"
+        android:hint="Telefone"
+        android:layout_margin="8dp"/>
+
+
+
+
+
+
+</LinearLayout>
